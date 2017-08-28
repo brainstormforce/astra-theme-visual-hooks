@@ -35,11 +35,3 @@ e.g.
 
 ### 1.0 ###
 * Initial Release
-
-### 0.5 ###
-* List versions from most recent at top to oldest at bottom.
-
-## Upgrade Notice ##
-
-### 1.0 ###
-Upgrade notices describe the reason a user should upgrade.  No more than 300 characters.
