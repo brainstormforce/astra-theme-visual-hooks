@@ -1,12 +1,13 @@
 <?php
 /**
- * Plugin Name:     Astra Theme Visual Hooks
- * Plugin URI:      PLUGIN SITE HERE
- * Description:     PLUGIN DESCRIPTION HERE
- * Author:          YOUR NAME HERE
- * Author URI:      YOUR SITE HERE
- * Text Domain:     astra-theme-visual-hooks
- * Domain Path:     /languages
+ * Plugin Name: Astra Theme Visual Hooks
+ * Plugin URI: http://www.wpastra.com/pro/
+ * Description: Display All hook locations in Astra.
+ * Version: 1.0.0
+ * Author: Brainstorm Force
+ * Author URI: http://www.brainstormforce.com
+ * Domain Path: /languages
+ * Text Domain: astra-theme-visual-hooks
  * Version:         1.0.0
  *
  * @package         Astra_Theme_Visual_Hooks
