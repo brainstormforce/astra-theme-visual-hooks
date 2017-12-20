@@ -15,6 +15,11 @@ class Astra_Theme_Visual_Hooks {
 	private $astra_hooks = array();
 
 	public static function instance() {
+		
+		if( ! is_user_logged_in() ) {
+			return null;
+		}
+
 		if ( ! isset( self::$_instance ) ) {
 			self::$_instance = new self;
 		}
