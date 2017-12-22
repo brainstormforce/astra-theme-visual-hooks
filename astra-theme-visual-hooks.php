@@ -21,4 +21,6 @@ define( 'ASTRA_TVH_BASE', plugin_basename( ASTRA_TVH_FILE ) );
 define( 'ASTRA_TVH_DIR',  plugin_dir_path( ASTRA_TVH_FILE ) );
 define( 'ASTRA_TVH_URI',  plugins_url( '/', ASTRA_TVH_FILE ) );
 
-require_once ASTRA_TVH_DIR . 'class-astra-theme-visual-hooks.php';
+if( ! is_admin() ) {
+	require_once ASTRA_TVH_DIR . 'class-astra-theme-visual-hooks.php';
+}
