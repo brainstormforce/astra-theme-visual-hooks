@@ -3,8 +3,8 @@
 **Donate link:** https://wpastra.com/  
 **Tags:** theme hooks  
 **Requires at least:** 4.4  
-**Tested up to:** 4.8.1  
-**Stable tag:** 1.0.0  
+**Tested up to:** 4.9.1  
+**Stable tag:** 1.1.0
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -32,6 +32,10 @@ e.g.
 
 
 ## Changelog ##
+
+### 1.1.0 ###
+* New: Added admin bar menu to show/hide Astra theme hooks.
+* New: Added filter `astra_hooks_enable_for_non_admin_user` which show Astra theme hooks for non logged in users.
 
 ### 1.0 ###
 * Initial Release

@@ -16,10 +16,6 @@ class Astra_Theme_Visual_Hooks {
 
 	public static function instance() {
 		
-		if( ! is_user_logged_in() ) {
-			return null;
-		}
-
 		if ( ! isset( self::$_instance ) ) {
 			self::$_instance = new self;
 		}
@@ -235,11 +231,43 @@ class Astra_Theme_Visual_Hooks {
 	}
 
 	private function __construct() {
-		// set up hooks.
-		$this->set_hooks();
 
-		add_action( 'wp', array( $this, 'display_hooks' ) );
-		add_action( 'wp_enqueue_scripts', array( $this, 'add_css' ) );
+		add_action( 'admin_bar_menu', array( $this, 'admin_bar_menu'), 90 );
+
+		if( ( isset( $_GET['astra-hooks' ] ) && 'show' === $_GET['astra-hooks' ] ) || apply_filters( 'astra_hooks_enable_for_non_admin_user', false ) ) {
+
+			$this->set_hooks();
+
+			add_action( 'wp', array( $this, 'display_hooks' ) );
+			add_action( 'wp_enqueue_scripts', array( $this, 'add_css' ) );
+		}
+	}
+
+	/**
+	 * Admin Bar Menu
+	 * 
+	 * @since  1.1.0
+	 * 
+	 * @param  array $wp_admin_bar Admin bar menus.
+	 * @return array               Admin bar menus.
+	 */
+	function admin_bar_menu( $wp_admin_bar = array() )
+	{
+		$title 	= __( 'Show Astra Hooks' , 'astra-hooks' );
+
+		$href = add_query_arg( 'astra-hooks', 'show' );
+		if( isset( $_GET['astra-hooks' ] ) && 'show' === $_GET['astra-hooks' ] ) {
+			$title 	= __( 'Hide Astra Hooks' , 'astra-hooks' );
+			$href = remove_query_arg( 'astra-hooks' );
+		}
+		
+		$wp_admin_bar->add_menu( array(
+			'title'		=> $title,
+			'id'		=> 'astra-hooks-menu',
+			'parent'	=> false,
+			'href'		=> $href,
+		) );
+
 	}
 
 	public function add_css() {
