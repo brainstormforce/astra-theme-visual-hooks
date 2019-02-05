@@ -1,6 +1,6 @@
 === Astra Theme Visual Hooks ===
 Contributors: brainstormforce
-Donate link: https://wpastra.com/
+Donate link: https://www.paypal.me/BrainstormForce
 Tags: theme hooks
 Requires at least: 4.4
 Tested up to: 4.9.1
