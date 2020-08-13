@@ -1,10 +1,10 @@
 # Astra Theme Visual Hooks #
 **Contributors:** brainstormforce  
-**Donate link:** https://www.paypal.me/BrainstormForce
+**Donate link:** https://www.paypal.me/BrainstormForce  
 **Tags:** theme hooks  
 **Requires at least:** 4.4  
-**Tested up to:** 5.4
-**Stable tag:** 1.1.0
+**Tested up to:** 5.5  
+**Stable tag:** 1.1.0  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -12,9 +12,18 @@ All hook locations in Astra...
 
 ## Description ##
 
-This plugin works only with <a href="https://wpastra.com/">Astra WordPress Theme</a>
+Want to see all hook locations in the <a href="https://wpastra.com/">Astra theme</a>? This plugin adds a handy link in the WordPress toolbar. Click to see or hide the hook locations. See screenshots below for more information.
 
-Display all the hook locations for your Astra Website.
+Helpful links:
+
+Astra Theme
+https://wpastra.com
+
+See all Hook Locations
+http://developers.wpastra.com/theme-visual-hooks/
+
+Add Content in Hook Location
+https://wordpress.org/plugins/astra-hooks/
 
 ## Installation ##
 
