@@ -31,7 +31,7 @@ This section describes how to install the plugin and get it working.
 
 e.g.
 
-1. Search for `Astra Theme Visual Hooks` in WordPress Admin panel -> Plugins -> Add new.
+1. Search for `Astra Theme Visual Hooks` in the WordPress Admin panel -> Plugins -> Add new.
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Screenshots ==
