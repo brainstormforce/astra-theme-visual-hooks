@@ -4,8 +4,8 @@
  * Plugin URI: http://www.wpastra.com/pro/
  * Description: Display All hook locations in Astra.
  * Version: 1.1.0
- * Author: Brainstorm Force
- * Author URI: http://www.brainstormforce.com
+ * Author: Pratik Chaskar
+ * Author URI: http://www.pratikchaskar.com
  * Domain Path: /languages
  * Text Domain: astra-theme-visual-hooks
  *

@@ -1,5 +1,5 @@
 === Astra Theme Visual Hooks ===
-Contributors: brainstormforce
+Contributors: pratikchaskar
 Donate link: https://www.paypal.me/BrainstormForce
 Tags: theme hooks
 Requires at least: 4.4
