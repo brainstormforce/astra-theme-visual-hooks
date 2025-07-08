@@ -4,7 +4,7 @@ Donate link: https://www.paypal.me/BrainstormForce
 Tags: theme hooks
 Requires at least: 4.4
 Tested up to: 6.8
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,6 +39,9 @@ e.g.
 1. Display hooks on frontend of your site.
 
 == Changelog ==
+
+= 1.1.1 =
+* Fix: Updated Readme file.
 
 = 1.1.0 =
 * New: Added admin bar menu to show/hide Astra theme hooks.

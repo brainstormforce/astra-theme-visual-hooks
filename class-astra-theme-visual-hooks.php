@@ -246,7 +246,7 @@ class Astra_Theme_Visual_Hooks {
 	/**
 	 * Admin Bar Menu
 	 * 
-	 * @since  1.1.0
+	 * @since  1.1.1
 	 * 
 	 * @param  array $wp_admin_bar Admin bar menus.
 	 * @return array               Admin bar menus.
